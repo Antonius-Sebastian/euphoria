@@ -32,6 +32,19 @@ import feedbackUser3 from "./feedback-user-3.png";
 import downloadGooglePlay from "./download-googleplay.png";
 import downloadAppStore from "./download-appstore.png";
 
+import womenThumbnail_1 from "./women thumbnail-1.png";
+import womenThumbnail_2 from "./women thumbnail-2.png";
+import womenThumbnail_3 from "./women thumbnail-3.png";
+import womenThumbnail_4 from "./women thumbnail-4.png";
+import womenThumbnail_5 from "./women thumbnail-5.png";
+import womenThumbnail_6 from "./women thumbnail-6.png";
+import womenThumbnail_7 from "./women thumbnail-7.png";
+import womenThumbnail_8 from "./women thumbnail-8.png";
+import womenThumbnail_9 from "./women thumbnail-9.png";
+import womenThumbnail_10 from "./women thumbnail-10.png";
+import womenThumbnail_11 from "./women thumbnail-11.png";
+import womenThumbnail_12 from "./women thumbnail-12.png";
+
 export default {
   logo,
 
@@ -66,4 +79,17 @@ export default {
 
   downloadGooglePlay,
   downloadAppStore,
+
+  womenThumbnail_1,
+  womenThumbnail_2,
+  womenThumbnail_3,
+  womenThumbnail_4,
+  womenThumbnail_5,
+  womenThumbnail_6,
+  womenThumbnail_7,
+  womenThumbnail_8,
+  womenThumbnail_9,
+  womenThumbnail_10,
+  womenThumbnail_11,
+  womenThumbnail_12,
 };

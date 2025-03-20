@@ -39,6 +39,7 @@ import SizeAndFit from "./Size & Fit.svg?react";
 import FreeShipping from "./Free Shipping & Returns.svg?react";
 
 import menu from "./menu.png";
+import Filter from "./Filtter.svg?react";
 
 export default {
   ArrowRight,
@@ -82,4 +83,5 @@ export default {
   FreeShipping,
 
   menu,
+  Filter,
 };

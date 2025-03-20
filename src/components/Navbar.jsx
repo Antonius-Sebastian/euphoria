@@ -1,9 +1,18 @@
 import { useState } from "react";
 import Icons from "../assets/icons"; // Import your icons
 import images from "../assets/images"; // Import your images
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const location = useLocation();
+
+  const getLinkClass = (path) => {
+    return location.pathname === path
+      ? "text-grayDark2 font-bold" // Active page style
+      : "text-grayDark font-medium"; // Inactive page style
+  };
 
   return (
     <header className="border-b-grayLight w-full border-b bg-white">
@@ -27,11 +36,11 @@ const Navbar = () => {
 
         {/* Desktop m */}
         <ul className="font-causten hidden items-center gap-10 md:flex">
-          <li className="text-grayDark2 text-[22px] font-bold">
-            <a href="#">Home</a>
-          </li>
-          <li className="text-grayDark text-[22px] font-medium">
-            <a href="#">Shop</a>
+          <li className={`text-[22px] ${getLinkClass("/")}`}>
+            <Link to="/">Home</Link>
+          </li>{" "}
+          <li className={`text-[22px] ${getLinkClass("/shop")}`}>
+            <Link to="/shop">Shop</Link>
           </li>
         </ul>
 
@@ -65,12 +74,12 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         }`}
       >
-        <ul className="flex flex-col items-center gap-6 bg-white py-4 shadow-md">
-          <li className="text-grayDark2 text-[20px] font-bold">
-            <a href="#">Home</a>
-          </li>
-          <li className="text-grayDark text-[20px] font-medium">
-            <a href="#">Shop</a>
+        <ul className="not-last:border-b-grayDark flex flex-col-reverse items-center gap-6 bg-white py-4 shadow-md not-last:border-b-2">
+          <li className={`text-[22px] ${getLinkClass("/")}`}>
+            <Link to="/">Home</Link>
+          </li>{" "}
+          <li className={`text-[22px] ${getLinkClass("/shop")}`}>
+            <Link to="/shop">Shop</Link>
           </li>
           <li>
             <form className="bg-secondary flex items-center gap-3 px-5 py-3">

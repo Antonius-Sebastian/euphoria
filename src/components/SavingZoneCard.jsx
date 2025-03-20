@@ -13,8 +13,8 @@ const SavingZoneCard = ({
   color,
 }) => {
   const colSpanVariants = {
-    2: "col-span-1 md:col-span-2",
-    3: "col-span-1 md:col-span-3",
+    2: "col-span-1 lg:col-span-2",
+    3: "col-span-1 lg:col-span-3",
   };
 
   const titleFontSizeVariants = {

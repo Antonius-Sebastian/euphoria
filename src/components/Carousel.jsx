@@ -7,7 +7,7 @@ const Carousel = () => {
       style={{
         backgroundImage: `url(${images.slide1})`,
       }}
-      className="flex min-h-screen w-full items-center bg-cover bg-center bg-no-repeat"
+      className="flex w-full items-center bg-cover bg-center bg-no-repeat py-10 lg:min-h-screen"
     >
       <div className="mx-auto w-4/5 max-w-7xl">
         <div className="flex max-w-[450px] flex-col justify-center gap-10">

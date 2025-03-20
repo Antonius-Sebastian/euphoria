@@ -35,6 +35,7 @@ export const newArrivals = [
     bgImage: images.newArrival_3,
     title: "Active T-Shirts",
   },
+
   {
     bgImage: images.newArrival_4,
     title: "Urban Shirts",
@@ -169,129 +170,91 @@ export const footerLinks = [
   },
 ];
 
-// export const shoes = [
-//     {
-//         thumbnail: thumbnailShoe1,
-//         bigShoe: bigShoe1,
-//     },
-//     {
-//         thumbnail: thumbnailShoe2,
-//         bigShoe: bigShoe2,
-//     },
-//     {
-//         thumbnail: thumbnailShoe3,
-//         bigShoe: bigShoe3,
-//     },
-// ]
+export const filter = [
+  "Tops",
+  "Printed T-shirts",
+  "Plain T-shirts",
+  "Kurti",
+  "Boxers",
+  "Full sleeve T-shirts",
+  "Joggers",
+  "Pajamas",
+  "Jeans",
+];
 
-// export const statistics = [
-//     { value: '1k+', label: 'Brands' },
-//     { value: '500+', label: 'Shops' },
-//     { value: '250k+', label: 'Customers' },
-// ]
+export const size = ["xxs", "xs", "s", "m", "l", "xl", "xxl", "3xl", "4xl"];
 
-// export const products = [
-//     {
-//         imgURL: shoe4,
-//         name: 'Nike Air Jordan-01',
-//         price: '$200.20',
-//         rating: 4.5,
-//     },
-//     {
-//         imgURL: shoe5,
-//         name: 'Nike Air Jordan-10',
-//         price: '$210.20',
-//         rating: 4.7,
-//     },
-//     {
-//         imgURL: shoe6,
-//         name: 'Nike Air Jordan-100',
-//         price: '$220.20',
-//         rating: 4.8,
-//     },
-//     {
-//         imgURL: shoe7,
-//         name: 'Nike Air Jordan-001',
-//         price: '$230.20',
-//         rating: 4.5,
-//     },
-// ]
-
-// export const services = [
-//     {
-//         imgURL: truckFast,
-//         label: 'Free shipping',
-//         subtext:
-//             'Enjoy seamless shopping with our complimentary shipping service.',
-//     },
-//     {
-//         imgURL: shieldTick,
-//         label: 'Secure Payment',
-//         subtext:
-//             'Experience worry-free transactions with our secure payment options.',
-//     },
-//     {
-//         imgURL: support,
-//         label: 'Love to help you',
-//         subtext:
-//             'Our dedicated team is here to assist you every step of the way.',
-//     },
-// ]
-
-// export const reviews = [
-//     {
-//         imgURL: customer1,
-//         customerName: 'Morich Brown',
-//         rating: 4.5,
-//         feedback:
-//             'The attention to detail and the quality of the product exceeded my expectations. Highly recommended!',
-//     },
-//     {
-//         imgURL: customer2,
-//         customerName: 'Lota Mongeskar',
-//         rating: 4.5,
-//         feedback:
-//             "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
-//     },
-// ]
-
-// export const footerLinks = [
-//     {
-//         title: 'Products',
-//         links: [
-//             { name: 'Air Force 1', link: '/' },
-//             { name: 'Air Max 1', link: '/' },
-//             { name: 'Air Jordan 1', link: '/' },
-//             { name: 'Air Force 2', link: '/' },
-//             { name: 'Nike Waffle Racer', link: '/' },
-//             { name: 'Nike Cortez', link: '/' },
-//         ],
-//     },
-//     {
-//         title: 'Help',
-//         links: [
-//             { name: 'About us', link: '/' },
-//             { name: 'FAQs', link: '/' },
-//             { name: 'How it works', link: '/' },
-//             { name: 'Privacy policy', link: '/' },
-//             { name: 'Payment policy', link: '/' },
-//         ],
-//     },
-//     {
-//         title: 'Get in touch',
-//         links: [
-//             { name: 'customer@nike.com', link: 'mailto:customer@nike.com' },
-//             { name: '+92554862354', link: 'tel:+92554862354' },
-//         ],
-//     },
-// ]
-
-// export const socialMedia = [
-//     { src: facebook, alt: 'facebook logo', url: 'https://www.facebook.com/' },
-//     { src: twitter, alt: 'twitter logo', url: 'https://www.tiktok.com/' },
-//     {
-//         src: instagram,
-//         alt: 'instagram logo',
-//         url: 'https://www.instagram.com/',
-//     },
-// ]
+export const womenProducts = [
+  {
+    thumbnailImage: images.womenThumbnail_1,
+    productName: "Black Sweatshirt with text",
+    brand: "Jhanvi",
+    price: 123.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_2,
+    productName: "White T-shirt",
+    brand: "Helen",
+    price: 11.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_3,
+    productName: "Lavender Hoodie with text",
+    brand: "Nike",
+    price: 119.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_4,
+    productName: "Leaves Pattern White Top",
+    brand: "Poppin",
+    price: 77.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_5,
+    productName: "White Graphic Crop Top",
+    brand: "Mia",
+    price: 22.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_6,
+    productName: "Black Shorts",
+    brand: "Nike",
+    price: 37.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_7,
+    productName: "Barborad Gray Sweatshirt",
+    brand: "Priya",
+    price: 77.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_8,
+    productName: "Yellow Sweatshirt",
+    brand: "Nike",
+    price: 92.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_9,
+    productName: "Flower Pattern Black Crop Top",
+    brand: "Mia",
+    price: 37.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_10,
+    productName: "I don't Graphic T-shirt",
+    brand: "Poppy",
+    price: 17.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_11,
+    productName: "Blue Flower Print Crop Top",
+    brand: "Hannah",
+    price: 29.0,
+  },
+  {
+    thumbnailImage: images.womenThumbnail_12,
+    productName: "Lace Pattern Black Hat",
+    brand: "Mia",
+    price: 35.0,
+  },
+];
