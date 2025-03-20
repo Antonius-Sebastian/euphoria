@@ -1,0 +1,395 @@
+/* Causten font */
+@font-face {
+  font-family: "Causten-MediumOblique";
+  src:
+    url("./assets/fonts/causten/Causten-MediumOblique.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-MediumOblique.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-Light.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten-LightOblique";
+  src:
+    url("./assets/fonts/causten/Causten-LightOblique.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-LightOblique.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-Medium.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten-SemiBoldOblique";
+  src:
+    url("./assets/fonts/causten/Causten-SemiBoldOblique.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-SemiBoldOblique.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten-RegularOblique";
+  src:
+    url("./assets/fonts/causten/Causten-RegularOblique.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-RegularOblique.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-Regular.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten-ThinOblique";
+  src:
+    url("./assets/fonts/causten/Causten-ThinOblique.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-ThinOblique.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-Thin.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten-BlackOblique";
+  src:
+    url("./assets/fonts/causten/Causten-BlackOblique.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-BlackOblique.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-Black.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-Bold.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten-ExtraBoldOblique";
+  src:
+    url("./assets/fonts/causten/Causten-ExtraBoldOblique.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-ExtraBoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten-BoldOblique";
+  src:
+    url("./assets/fonts/causten/Causten-BoldOblique.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-BoldOblique.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-ExtraBold.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten";
+  src:
+    url("./assets/fonts/causten/Causten-ExtraLight.woff2") format("woff2"),
+    url("./assets/fonts/causten/Causten-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Causten-ExtraLightOblique";
+  src:
+    url("./assets/fonts/causten/Causten-ExtraLightOblique.woff2")
+      format("woff2"),
+    url("./assets/fonts/causten/Causten-ExtraLightOblique.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Core-Sans font */
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR85HeavyRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR85HeavyRegular.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR85HeavyItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR85HeavyItalic.woff")
+      format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR25ExtraLightRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR25ExtraLightRegular.woff")
+      format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR25ExtraLightItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR25ExtraLightItalic.woff")
+      format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR15ThinRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR15ThinRegular.woff")
+      format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR15ThinItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR15ThinItalic.woff")
+      format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR35LightRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR35LightRegular.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR35LightItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR35LightItalic.woff")
+      format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR45RegularRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR45RegularRegular.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR45RegularItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR45RegularItalic.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR55MediumRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR55MediumRegular.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR55MediumItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR55MediumItalic.woff")
+      format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR65BoldRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR65BoldRegular.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR65BoldItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR65BoldItalic.woff")
+      format("woff");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR75ExtraBoldRegular.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR75ExtraBoldRegular.woff")
+      format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Core Sans AR";
+  src:
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR75ExtraBoldItalic.woff2")
+      format("woff2"),
+    url("./assets/fonts/core-sans/FONTSPRINGDEMO-CoreSansAR75ExtraBoldItalic.woff")
+      format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-causten: "Causten", sans-serif;
+  --font-coreSans: "Core Sans AR", sans-serif;
+
+  /* Colors */
+  --color-primary: #8a33fd;
+  --color-secondary: #f6f6f6;
+  --color-tertiary: #edeef2;
+  --color-grayLight: #bebcbd;
+  --color-white: #ffffff;
+  --color-grayDark: #807d7e;
+  --color-grayDark2: #3c4242;
+}
+
+.text-heading {
+  @apply font-coreSans text-grayDark2 border-l-primary border-l-[6px] pl-5 text-2xl font-bold md:text-[34px];
+}
