@@ -16,11 +16,11 @@ const Navbar = () => {
 
   return (
     <header className="border-b-grayLight w-full border-b bg-white">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 md:px-8">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-6 sm:px-6 xl:px-0">
         {/* Logo */}
-        <div className="h-11 w-23">
+        <Link to="/" className="h-11 w-23">
           <img src={images.logo} alt="Logo" className="object-contain" />
-        </div>
+        </Link>
 
         {/* Hamburger m (Mobile) */}
         <button
@@ -61,9 +61,9 @@ const Navbar = () => {
             <a href="#" className="bg-secondary rounded-lg p-3">
               <Icons.User className="h-5 w-5" />
             </a>
-            <a href="#" className="bg-secondary rounded-lg p-3">
+            <Link to="/cart" className="bg-secondary rounded-lg p-3">
               <Icons.ShoppingCart className="h-5 w-5" />
-            </a>
+            </Link>
           </div>
         </div>
       </nav>
@@ -98,9 +98,9 @@ const Navbar = () => {
             <a href="#" className="bg-secondary rounded-lg p-3">
               <Icons.User className="h-5 w-5" />
             </a>
-            <a href="#" className="bg-secondary rounded-lg p-3">
+            <Link to="/cart" className="bg-secondary rounded-lg p-3">
               <Icons.ShoppingCart className="h-5 w-5" />
-            </a>
+            </Link>
           </div>
         </ul>
       </div>

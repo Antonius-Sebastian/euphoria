@@ -10,14 +10,28 @@ import "./styles.css";
 import { footerLinks } from "./constant/index.js";
 import images from "./assets/images";
 import Icons from "./assets/icons";
+import ProductDetails from "./pages/ProductDetails.jsx";
+import Cart from "./pages/Cart.jsx";
+import Checkout from "./pages/Checkout.jsx";
+import Delivery from "./pages/Delivery.jsx";
+import ScrollToTop from "./components/ScrollToTop.jsx";
+import OrderConfirmed from "./pages/OrderConfirmed.jsx";
+import Error_404 from "./pages/Error_404.jsx";
 
 function App() {
   return (
     <Router>
       <Navbar />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
+        <Route path="/shop/:slug" element={<ProductDetails />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/checkout" element={<Checkout />} />
+        <Route path="/delivery" element={<Delivery />} />
+        <Route path="/order-confirmed" element={<OrderConfirmed />} />
+        <Route path="/*" element={<Error_404 />} />
       </Routes>
       <footer className="bg-grayDark2 w-full pt-[60px] pb-10">
         <div className="mx-auto w-4/5 max-w-7xl">

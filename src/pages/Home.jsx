@@ -9,6 +9,7 @@ import FeedbackCard from "../components/FeedbackCard";
 import Carousel from "../components/Carousel";
 import Deals from "../components/Deals";
 import NewArrival from "../components/NewArrival";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -64,12 +65,12 @@ const Home = () => {
               In our journey to improve everyday fashion, euphoria presents
               EVERYDAY wear range - Comfortable & Affordable fashion 24/7
             </p>
-            <a
-              href="#"
-              className="font-causten text-grayDark2 text-bas mt-8 w-fit rounded-lg bg-white px-5 py-2 font-semibold md:mt-[50px] md:px-11 md:py-3 md:text-lg"
+            <Link
+              to="/shop"
+              className="font-causten text-grayDark2 text-bas mt-8 w-fit rounded-lg bg-white px-5 py-2 font-semibold transition-all hover:-translate-y-0.5 hover:bg-[#f5f5f5] hover:text-black active:translate-y-0 md:mt-[50px] md:px-11 md:py-3 md:text-lg"
             >
               Shop Now
-            </a>
+            </Link>
           </div>
         </div>
 

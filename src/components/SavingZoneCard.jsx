@@ -1,5 +1,6 @@
 import React from "react";
 import Icons from "../assets/icons";
+import { Link } from "react-router-dom";
 
 const SavingZoneCard = ({
   colSpan,
@@ -53,13 +54,18 @@ const SavingZoneCard = ({
   };
 
   const colorVariants = {
-    light: "text-white",
-    dark: "text-white md:text-grayDark2",
+    light: "text-white ",
+    dark: "text-white md:text-grayDark2 ",
+  };
+
+  const arrowColorVariants = {
+    light: "fill-white",
+    dark: "fill-grayDark2",
   };
 
   const borderVariants = {
-    light: "border-white",
-    dark: "border-white md:border-grayDark2",
+    light: "border-white hover:bg-white hover:text-grayDark2",
+    dark: "border-white md:border-grayDark2 hover:bg-white md:hover:bg-grayDark2 md:hover:text-white hover:text-grayDark2",
   };
 
   return (
@@ -93,13 +99,15 @@ const SavingZoneCard = ({
           Upto {deals} off
         </p>
         <div className="flex flex-col items-center">
-          <Icons.ArrowDown className="mt-[30px] h-10 w-12" />
-          <a
-            href="#"
-            className={`font-causten mt-10 w-fit rounded-sm border ${borderVariants[color]} bg-transparent ${buttonSizeVariants[colSpan]} text-xs font-medium uppercase`}
+          <Icons.ArrowDown
+            className={`mt-[30px] h-10 w-12 ${arrowColorVariants[color]}`}
+          />
+          <Link
+            to="/shop"
+            className={`font-causten mt-10 w-fit rounded-sm border transition-all ${borderVariants[color]} bg-transparent ${buttonSizeVariants[colSpan]} text-xs font-medium uppercase`}
           >
             Shop Now
-          </a>
+          </Link>
         </div>
       </div>
     </div>

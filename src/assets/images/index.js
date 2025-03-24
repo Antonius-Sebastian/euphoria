@@ -45,6 +45,12 @@ import womenThumbnail_10 from "./women thumbnail-10.png";
 import womenThumbnail_11 from "./women thumbnail-11.png";
 import womenThumbnail_12 from "./women thumbnail-12.png";
 
+import video from "./video.png";
+
+import orderConfirmed from "./order-confirmed 1.png";
+
+import error_404 from "./404 error.png";
+
 export default {
   logo,
 
@@ -92,4 +98,9 @@ export default {
   womenThumbnail_10,
   womenThumbnail_11,
   womenThumbnail_12,
+
+  video,
+
+  orderConfirmed,
+  error_404,
 };

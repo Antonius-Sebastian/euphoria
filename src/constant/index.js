@@ -1,12 +1,5 @@
 import images from "../assets/images";
 
-// export const navLinks = [
-//     { href: '#home', label: 'Home' },
-//     { href: '#about-us', label: 'About Us' },
-//     { href: '#products', label: 'Products' },
-//     { href: '#contact-us', label: 'Contact Us' },
-// ]
-
 export const deals = [
   {
     bgImage: images.deals_1,
@@ -42,7 +35,6 @@ export const newArrivals = [
   },
 ];
 
-// gridSpan, images, title, subtitle, deals, limited, align
 export const savingZone = [
   {
     colSpan: "2",
@@ -256,5 +248,85 @@ export const womenProducts = [
     productName: "Lace Pattern Black Hat",
     brand: "Mia",
     price: 35.0,
+  },
+];
+
+export const productSpecification = [
+  {
+    title: "Fabric",
+    subtitle: "Bio-washed Cotton",
+  },
+  {
+    title: "Pattern",
+    subtitle: "Printed",
+  },
+  {
+    title: "Fit",
+    subtitle: "Regular-fit",
+  },
+  {
+    title: "Neck",
+    subtitle: "Round Neck",
+  },
+  {
+    title: "Sleeve",
+    subtitle: "Half-sleeves",
+  },
+  {
+    title: "Style",
+    subtitle: "Casual wear",
+  },
+];
+
+export const billingDetailsInput = [
+  {
+    label: "First Name",
+    colSpan: 3,
+    inputType: "text",
+  },
+  {
+    label: "Last Name",
+    colSpan: 3,
+    inputType: "text",
+  },
+  {
+    label: "Country / Region",
+    colSpan: 3,
+    inputType: "text",
+  },
+  {
+    label: "Company Name",
+    colSpan: 3,
+    inputType: "text",
+  },
+  {
+    label: "Street Address",
+    colSpan: 3,
+    inputType: "text",
+  },
+  {
+    label: "Apt, suite, unit",
+    colSpan: 3,
+    inputType: "text",
+  },
+  {
+    label: "City",
+    colSpan: 2,
+    inputType: "text",
+  },
+  {
+    label: "State",
+    colSpan: 2,
+    inputType: "text",
+  },
+  {
+    label: "Postal Code",
+    colSpan: 2,
+    inputType: "number",
+  },
+  {
+    label: "Phone",
+    colSpan: 3,
+    inputType: "tel",
   },
 ];

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Deals = ({ overline, title, subtitle, bgImage }) => {
   return (
@@ -12,12 +13,12 @@ const Deals = ({ overline, title, subtitle, bgImage }) => {
         <p className="text-lg font-extrabold">{overline}</p>
         <h3 className="mt-6 text-3xl font-extrabold md:text-[34px]">{title}</h3>
         <p className="font-ligh mt-2 text-base uppercase">{subtitle}</p>
-        <a
-          href="#"
+        <Link
+          to="/shop"
           className="mt-10 w-fit border-b-2 border-b-white text-lg font-extrabold"
         >
           Explore Items
-        </a>
+        </Link>
       </div>
     </div>
   );

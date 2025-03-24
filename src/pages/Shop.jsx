@@ -1,27 +1,35 @@
-import React from "react";
+import React, { useState } from "react";
 import FilterBar from "../components/FilterBar";
 import { womenProducts } from "../constant";
 import Icons from "../assets/icons";
 import ProductCard from "../components/ProductCard";
 
 const Shop = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleFilterBar = () => {
+    setIsOpen((prevValue) => !prevValue);
+  };
   return (
     <>
       <div className="mx-auto w-11/12 max-w-7xl md:w-4/5">
         <div className="flex flex-col justify-between md:flex-row md:gap-[50px]">
-          <FilterBar />
+          <FilterBar isOpen={isOpen} />
           {/* Product List */}
           <div className="flex-1 py-5 md:py-[50px]">
             <div className="flex items-center justify-between">
               <h3 className="font-causten text-grayDark2 text-[22px] font-semibold">
                 Women's Clothing
               </h3>
-              <div className="border-grayLight flex items-center justify-between gap-4 border px-4 py-2 md:hidden">
-                <h5 className="font-causten text-grayDark text-[22px] font-semibold">
+              <button
+                onClick={toggleFilterBar}
+                className="border-grayLight hover:bg-secondary active:bg-secondary flex items-center justify-between gap-4 border px-4 py-2 lg:hidden"
+              >
+                <h6 className="font-causten text-grayDark text-[22px] font-semibold">
                   Filter
-                </h5>
+                </h6>
                 <Icons.Filter />
-              </div>
+              </button>
             </div>
             <div className="mt-[50px] grid grid-cols-2 gap-6 sm:grid-cols-3">
               {womenProducts.map((item, id) => (

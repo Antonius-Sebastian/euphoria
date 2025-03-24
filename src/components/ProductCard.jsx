@@ -1,9 +1,13 @@
 import React from "react";
 import Icons from "../assets/icons";
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ thumbnailImage, productName, brand, price }) => {
   return (
-    <div className="flex flex-col gap-[30px]">
+    <Link
+      to={`/shop/${productName.toLowerCase().replace(/\s+/g, "-")}`}
+      className="flex flex-col gap-[30px]"
+    >
       <div className="relative">
         <img
           src={thumbnailImage}
@@ -27,7 +31,7 @@ const ProductCard = ({ thumbnailImage, productName, brand, price }) => {
           ${price.toFixed(2)}
         </p>
       </div>
-    </div>
+    </Link>
   );
 };
 

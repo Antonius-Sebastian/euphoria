@@ -19,7 +19,7 @@ import Twitter from "./twitter.svg?react";
 import Heart from "./heart.svg?react";
 import User from "./user.svg?react";
 import Search from "./search.svg?react";
-import ShoppingCart from "./shopping cart.svg?react";
+import ShoppingCart from "./cart.svg?react";
 import SignOut from "./sign out.svg?react";
 
 import lock from "./lock.png";
@@ -39,7 +39,10 @@ import SizeAndFit from "./Size & Fit.svg?react";
 import FreeShipping from "./Free Shipping & Returns.svg?react";
 
 import menu from "./menu.png";
+
 import Filter from "./Filtter.svg?react";
+
+import Trash from "./trash.svg?react";
 
 export default {
   ArrowRight,
@@ -84,4 +87,5 @@ export default {
 
   menu,
   Filter,
+  Trash,
 };
