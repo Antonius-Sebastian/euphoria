@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const OrderConfirmed = () => {
   return (
-    <div className="border-grayDark2 mx-auto my-10 flex w-11/12 max-w-md flex-col items-center justify-center rounded-xl border-2 px-5 pt-10 pb-16 md:w-4/5">
+    <div className="border-grayDark2 mx-auto my-10 flex w-11/12 max-w-md flex-col items-center justify-center rounded-xl border-2 px-5 pt-10 pb-16 text-center md:w-4/5">
       <DotLottieReact
         src="/animations/order-confirmed.lottie"
         autoplay
@@ -17,7 +17,7 @@ const OrderConfirmed = () => {
 
       <Link
         to="/shop"
-        className="font-causten bg-primary mt-10 w-fit rounded-lg px-5 py-3 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#6620C1] active:translate-y-0 lg:py-4 lg:text-lg"
+        className="font-causten bg-primary mt-10 w-fit rounded-lg px-5 py-3 text-lg font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-[#6620C1] active:translate-y-0 lg:py-4 lg:text-lg"
       >
         Continue Shopping
       </Link>
